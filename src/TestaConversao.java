@@ -2,7 +2,11 @@ public class TestaConversao {
 
     public static void main(String[] args) {
 
-        System.out.println();
+        double salario = 1270.50;
+        int valor = (int) salario;
+
+        System.out.println(valor);
+
     }
 
 }
