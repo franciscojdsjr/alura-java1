@@ -1,15 +1,16 @@
-public class TestaCondicional {
+public class TesteCondicional2 {
 
     public static void main(String[] args) {
 
         System.out.println("testando condicionais");
 
-        int idade = 16;
-        int quantidadePesosas = 3;
+        int idade = 24;
+        int quantidadePessoas = 3;
+        boolean acompanhado = quantidadePessoas >= 2;
 
-        if (idade >= 18 || quantidadePesosas >= 2) {
+        if (idade >= 18 && acompanhado == true) {
 
-            System.out.println("Você tem mais de 18 anos");
+            System.out.println("Seja Bem Vindo");
         } else {
             System.out.println("Infelizmente você não pode entrar");
         }
