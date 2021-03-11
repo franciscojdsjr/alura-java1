@@ -2,7 +2,7 @@ public class TestaCondicional {
 
     public static void main(String[] args) {
 
-        System.out.println("testando condicionais");
+        System.out.println("testando condicionais com java");
 
         int idade = 16;
         int quantidadePEsosas = 3;
