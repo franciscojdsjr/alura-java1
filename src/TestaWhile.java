@@ -1,0 +1,16 @@
+public class TestaWhile {
+
+ 
+    public static void main(String[] args) {
+        
+        int contador;
+
+        while(contador < 10) {
+
+
+        }
+    }
+        
+    }
+    
+}
